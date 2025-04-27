@@ -125,57 +125,6 @@
     </div>
 </section>
 
-<section><div class="qr-animation">
-  <div class="qr-scanner">
-    <div class="qr-line"></div>
-  </div>
-  <p>Scan QR to trace products instantly</p>
-</div>
-</div></section>
-<style>.qr-animation {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 15px;
-  margin-top: 30px;
-}
-
-.qr-scanner {
-  width: 150px;
-  height: 150px;
-  border: 3px solid var(--primary-color);
-  border-radius: 10px;
-  position: relative;
-  overflow: hidden;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.qr-line {
-  position: absolute;
-  width: 100%;
-  height: 3px;
-  background: var(--primary-color);
-  animation: scan 2s infinite linear;
-  box-shadow: 0 0 10px rgba(30, 144, 255, 0.7);
-}
-
-@keyframes scan {
-  0% {
-    top: 0;
-  }
-  100% {
-    top: 100%;
-  }
-}
-
-.qr-animation p {
-  font-size: 1rem;
-  color: var(--primary-color);
-  font-weight: 600;
-}</style>
-
 
 <!-- ====== Home Section END ====== -->
 
